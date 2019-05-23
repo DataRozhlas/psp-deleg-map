@@ -11,7 +11,7 @@ def jungmann_fuck(txt):
     nfkd = unicodedata.normalize('NFKD', txt)
     return u"".join([c for c in nfkd if not unicodedata.combining(c)])
 #%%
-d = pd.read_csv('psp-delegace.csv')
+d = pd.read_csv('./tools/psp-delegace.csv')
 
 #%%
 locs = []
@@ -41,8 +41,8 @@ for loc in out:
         list(filter(lambda x: x['uid'] == loc, locs))[0]['mps'] += len(list(filter(lambda y: y['nahradnik'] == 'F', out[loc][deleg])))
 
 #%%
-with open('data.js', 'w', encoding='utf-8') as f:
-    f.write('var data = ' + json.dumps(out, ensure_ascii=False) + ';')
+with open('./js/data.js', 'w', encoding='utf-8') as f:
+    f.write('export const data = ' + json.dumps(out, ensure_ascii=False) + ';')
 
 #%%
 for loc in locs:
@@ -53,5 +53,5 @@ for loc in locs:
     loc['lon'] = float(root[0][0].attrib['x'])
 
 #%%
-with open('locs.js', 'w', encoding='utf-8') as f:
-    f.write('var locs = ' + json.dumps(locs, ensure_ascii=False) + ';')
+with open('./js/locs.js', 'w', encoding='utf-8') as f:
+    f.write('export const locs = ' + json.dumps(locs, ensure_ascii=False) + ';')
