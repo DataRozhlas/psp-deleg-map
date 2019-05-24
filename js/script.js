@@ -79,7 +79,7 @@ Highcharts.mapChart('mapa', {
         enabled: false
     },
     subtitle: {
-        text: 'kliknutím vyberte místo'
+        text: 'kliknutím vyberte místo a zobrazte podrobný seznam poslaneckých delegací'
     },
     legend: {
         enabled: false
@@ -96,9 +96,8 @@ Highcharts.mapChart('mapa', {
                 return '<b>' + this.point.name + '</b><br>'
                     + 'delegací: ' 
                     + this.point.trips 
-                    + ' (poslanců celkem: ' 
-                    + this.point.mps 
-                    + ')'
+                    + '<br>poslanců: ' 
+                    + this.point.mps
             }
     },
     series: [{
