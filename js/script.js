@@ -9,6 +9,14 @@ function nahr(v) {
     };
 };
 
+function shit(v) {
+    if (v == '') {
+        return '';
+    } else {
+        return ', ' + v;
+    }
+}
+
 function makeTable(loc) {
     var tbl = ''
     Object.values(data[loc]).forEach(function(e) {
@@ -20,8 +28,8 @@ function makeTable(loc) {
             + '</p><p><ul>'
         e.forEach(function(mp){
             tbl += '<li>'
-            + mp['poslanec'] + nahr(mp['nahradnik']) 
-            + ', ' + (mp['funkce'] || 'řadový poslanec')
+            + mp['poslanec'] + nahr(mp['nahradnik'])
+            + shit(mp['funkce'])
             + '</li>'
         });
     });
