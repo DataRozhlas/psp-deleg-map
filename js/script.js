@@ -9,6 +9,22 @@ function nahr(v) {
     };
 };
 
+function stalaDelegace(d) {
+    if (d.length>0) {
+        return '<b>stálá delegace:</b> ' + d + '<br>';
+    } else {
+        return '';
+    }
+};
+
+function organizace(d) {
+    if (d.length>0) {
+        return '<b>organizace:</b> ' + d + '<br>';
+    } else {
+        return '';
+    }
+};
+
 function shit(v) {
     if (v == '') {
         return '';
@@ -23,8 +39,10 @@ function makeTable(loc) {
         tbl += '<br><p class="header_p"><b>' 
             +  e[0].mesto + ', ' +  e[0].zeme + '</b> (<a rel="noopener noreferrer" target="_blank" href="' + e[0].url + '">' 
             +  e[0].pobyt + '</a>)<br>'
-            + e[0].zduvodneni
-            + '<br><b>PSP hradila:</b> ' +  e[0].naklady_PSP,
+            +  e[0].zduvodneni + '<br>'
+            +  stalaDelegace(e[0].stala_delegace)
+            +  organizace(e[0].organizace)
+            + '<b>náklady poslanecké sněmovny:</b> ' +  e[0].naklady_PSP,
             + '</p><p><ul>'
         e.forEach(function(mp){
             tbl += '<li>'
@@ -57,7 +75,9 @@ Highcharts.mapChart('mapa', {
     title: {
         text: 'Zahraniční cesty poslanců v aktuálním volebním období'
     },
-
+    credits: {
+        enabled: false
+    },
     subtitle: {
         text: 'kliknutím vyberte místo'
     },
