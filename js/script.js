@@ -10,21 +10,22 @@ function nahr(v) {
 };
 
 function makeTable(loc) {
-    var tbl = '<table>'
+    var tbl = ''
     Object.values(data[loc]).forEach(function(e) {
-        tbl += '<tr><th>' 
-            +  e[0].mesto + ', ' +  e[0].zeme + ' (<a rel="noopener noreferrer" target="_blank" href="' + e[0].url + '">' 
+        tbl += '<br><p class="header_p"><b>' 
+            +  e[0].mesto + ', ' +  e[0].zeme + '</b> (<a rel="noopener noreferrer" target="_blank" href="' + e[0].url + '">' 
             +  e[0].pobyt + '</a>)<br>'
-            +  e[0].zduvodneni + '<br>'
-            + 'PSP hradila: ' +  e[0].naklady_PSP,
-            + '</th></tr>'
+            + e[0].zduvodneni
+            + '<br><b>PSP hradila:</b> ' +  e[0].naklady_PSP,
+            + '</p><p><ul>'
         e.forEach(function(mp){
-            tbl += '<tr>'
-            + '<td>' + mp['poslanec'] + nahr(mp['nahradnik']) 
-            + ', ' + (mp['funkce'] || 'řadový poslanec') +  '</td>'
-            + '</tr>'
+            tbl += '<li>'
+            + mp['poslanec'] + nahr(mp['nahradnik']) 
+            + ', ' + (mp['funkce'] || 'řadový poslanec')
+            + '</li>'
         });
     });
+    tbl += '</ul></p>'
     document.getElementById('mps_list').innerHTML = tbl;
 };
 
@@ -78,6 +79,7 @@ Highcharts.mapChart('mapa', {
         enableMouseTracking: false
     }, {
         type: 'mappoint',
+        cursor: 'pointer',
         name: 'Population 20dd16',
         data: locs,
         point: {
