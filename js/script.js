@@ -47,7 +47,7 @@ Highcharts.mapChart('mapa', {
         map: 'custom/world'
     },
     title: {
-        text: 'Zahraniční cesty poslanců v letech 2017 - 2019'
+        text: 'Zahraniční cesty poslanců v aktuálním volebním období'
     },
 
     subtitle: {
