@@ -1,5 +1,6 @@
 #%%
 import requests
+from requests.utils import requote_uri
 import pandas as pd
 import unicodedata
 import json
@@ -9,7 +10,7 @@ import xml.etree.ElementTree as ET
 #%%
 def jungmann_fuck(txt):
     nfkd = unicodedata.normalize('NFKD', txt)
-    return u"".join([c for c in nfkd if not unicodedata.combining(c)])
+    return u''.join([c for c in nfkd if not unicodedata.combining(c)])
 #%%
 d = pd.read_csv('./tools/psp-delegace.csv')
 
@@ -47,10 +48,14 @@ with open('./js/data.js', 'w', encoding='utf-8') as f:
 #%%
 for loc in locs:
     time.sleep(0.25)
-    r = requests.get('https://api.mapy.cz/geocode?query=' + loc['name'])
+    uri = 'https://api.mapy.cz/geocode?query=' + loc['name']
+    r = requests.get(requote_uri(uri))
     root = ET.fromstring(r.text)
-    loc['lat'] = float(root[0][0].attrib['y'])
-    loc['lon'] = float(root[0][0].attrib['x'])
+    try:
+        loc['lat'] = float(root[0][0].attrib['y'])
+        loc['lon'] = float(root[0][0].attrib['x'])
+    except:
+        print(loc['name'])
 
 #%%
 with open('./js/locs.js', 'w', encoding='utf-8') as f:
