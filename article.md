@@ -1,4 +1,4 @@
-title: "Sněmovna jako cestovní kancelář? Mapa ukazuje kam, proč a jak často poslanci jezdí"
+title: "Sněmovna jako cestovní kancelář? Mapa ukazuje, kam, proč a jak často poslanci jezdí"
 perex: "Výpravu poslanců z kontrolního výboru do Peru zastihl reportér Radiožurnálu při výšlapu na Machu Picchu. Podle kritiků jsou zahraniční cesty placené sněmovnou často spíš příjemné než užitečné. Server iROZHLAS.cz proto zmapoval cíle i složení všech delegací v aktuální funkčním období."
 styles: []
 libraries: ['https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.6/proj4.js', 'https://code.highcharts.com/maps/highmaps.js', 'https://code.highcharts.com/mapdata/custom/world.js', 'https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.2/d3.min.js'] #jquery, d3, highcharts, datatables
@@ -31,7 +31,7 @@ options: [noheader, nopic] #wide, noheader (, nopic)
   </div>
 </a>
 
-Letošní poslanecká mise do Peru nebyla první – přesně před rokem se do stejné země – a také do Kolumbie – podívala čtyřčlenná delegace zahraničního výboru. Důvod? „Jednání s partnerským výborem a představiteli dalších institucí.“ Navlas stejné vágní zdůvodnění poslanci použili u každé třetí ze 725 zahraničních cest, jež od voleb na podzim 2017 podnikli.
+Letošní poslanecká mise do Peru nebyla první. Přesně před rokem se do stejné země – a také do Kolumbie – podívala čtyřčlenná delegace zahraničního výboru. Důvod? „Jednání s partnerským výborem a představiteli dalších institucí.“ Navlas stejné vágní zdůvodnění poslanci použili u každé třetí ze 725 zahraničních cest, které od voleb na podzim 2017 podnikli.
 
 Vyplývá to z [usnesení organizačního výboru](http://www.psp.cz/sqw/hp.sqw?k=3805&kk=5), který každou zahraniční cestu schvaluje. Server iROZHLAS.cz tyto dokumenty jeden po druhém prošel a informace z nich [shromáždil do přehledné tabulky](https://docs.google.com/spreadsheets/d/12M3beW986UsSV9fYA5j3YOD9FX0IClEbij8qnwdtuOE/edit?usp=sharing). Všechny destinace najdete také v následující mapě. Kliknutím zobrazíte seznam všech poslanců, kteří ji navštívili, zdůvodnění cesty i přehled sněmovnou proplacených nákladů.
 
@@ -70,7 +70,7 @@ Vyplývá to z [usnesení organizačního výboru](http://www.psp.cz/sqw/hp.sqw?
 
 Poslanec Jiří Bláha z hnutí ANO si myslí, že poslanci nemají do zahraničí jezdit vůbec. „Já určitě, když se mě ptají, jestli chci někam jet, tak řeknu ne. Za prvé neumím jazyky, tak to už je první moje brána, kdy říkám, co tam budu dělat. Do zahraničí by měli jezdit byznysmeni, a nevím, proč poslanci,“ odpověděl na dotaz. Jeho jméno figuruje pouze na seznamu náhradníků pro cestu hospodářského výboru do Číny loni na podzim.
 
-Podle bývalého náměstka ministra zahraničí Tomáše Pojara záleží na tom, kdo z poslanců kam jede a jak svou cestu koordinuje s celou zahraniční politikou. „Logicky má smysl, když jede výbor parlamentu nebo jednotliví poslanci na Ukrajinu, do Německa. Prostě do zemí, s kterými máme nějaké kontakty. Může to mít smysl tam, kde ty oficiální kontakty nejsou, a kde to je jakýsi doplněk diplomacie nebo paralelní cesta. Je to trošku složitější, ale může se to stát. Když se bavíme o cestě kontrolní komise do Peru nebo kamkoliv mimo evropský kontinent, tak to smysl nemá a mít nemůže,“ [řekl Pojar](https://www.irozhlas.cz/zpravy-domov/tomas-pojar-machu-pichu-vylet-snemovna-kontrolni-vybor-miloslav-kala-peru-nku_1905221955_och). 
+Podle bývalého náměstka ministra zahraničí Tomáše Pojara záleží na tom, kdo z poslanců kam jede a jak svou cestu koordinuje s celou zahraniční politikou. „Logicky má smysl, když jede výbor Parlamentu nebo jednotliví poslanci na Ukrajinu, do Německa. Prostě do zemí, se kterými máme nějaké kontakty. Může to mít smysl tam, kde ty oficiální kontakty nejsou a kde to je jakýsi doplněk diplomacie nebo paralelní cesta. Je to trošku složitější, ale může se to stát. Když se bavíme o cestě kontrolní komise do Peru nebo kamkoliv mimo evropský kontinent, tak to smysl nemá a mít nemůže,“ [řekl Pojar](https://www.irozhlas.cz/zpravy-domov/tomas-pojar-machu-pichu-vylet-snemovna-kontrolni-vybor-miloslav-kala-peru-nku_1905221955_och). 
 
 ## Největší zájem byl o Mexiko a Floridu
 
@@ -110,6 +110,6 @@ Na cesty výborů je letos ve sněmovním rozpočtu vyčleněno 12,5 milionu kor
 
 Poslanci zatím v tomto volebním období procestovali 61 zemí na všech kontinentech s výjimkou Antarktidy a Austrálie. Cesta na Nový Zéland a do Austrálie je nicméně v dlouhodobém plánu na letošní rok, byť ji zatím organizační výbor neschválil.
 
-Nejčastěji poslanci vyjíždějí do Francie, Belgie, na SLovensko, do Rakouska, Maďarska a USA. Nejvíce zahraničních cest má na kontě předseda sněmovny Radek Vondráček (ANO), do ciziny vyjel celkem pětatřicetkrát. Jako jeden ze čtyř nejvyšších ústavních činitelů může na některých cestách zastoupit i prezidenta. 
+Nejčastěji poslanci vyjíždějí do Francie, Belgie, na Slovensko, do Rakouska, Maďarska a USA. Nejvíce zahraničních cest má na kontě předseda sněmovny Radek Vondráček (ANO), do ciziny vyjel celkem pětatřicetkrát. Jako jeden ze čtyř nejvyšších ústavních činitelů může na některých cestách zastoupit i prezidenta. 
 
-Na druhém místě je s 28 výjezdy předseda Výboru pro Evropské záležitosti Ondřej Benešík (KDU-ČSL) 28, na třetím Josef Hájek (ANO) se 24 schválenými cestami a na třetím místopředseda Zahraničního výboru Jiří Kobza (SPD), který měl příležitost vycestovat jedenadvacetkrát. 
+Na druhém místě je s 28 výjezdy předseda výboru pro evropské záležitosti Ondřej Benešík (KDU-ČSL) 28, na třetím Josef Hájek (ANO) se 24 schválenými cestami a na třetím místopředseda zahraničního výboru Jiří Kobza (SPD), který měl příležitost vycestovat jedenadvacetkrát.
