@@ -79,7 +79,7 @@ Highcharts.mapChart('mapa', {
         enabled: false
     },
     subtitle: {
-        text: 'kliknutím vyberte místo a zobrazte podrobný seznam poslaneckých delegací'
+        text: 'kliknutím vyberte místo a zobrazte podrobný seznam poslaneckých delegací včetně zdůvodnění'
     },
     legend: {
         enabled: false
