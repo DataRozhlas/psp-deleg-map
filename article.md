@@ -33,7 +33,9 @@ options: [noheader, nopic] #wide, noheader (, nopic)
 
 Letošní poslanecká mise do Peru nebyla první. Přesně před rokem se do stejné země – a také do Kolumbie – podívala čtyřčlenná delegace zahraničního výboru. Důvod? „Jednání s partnerským výborem a představiteli dalších institucí.“ Navlas stejné vágní zdůvodnění poslanci použili u každé třetí ze 725 zahraničních cest, které od voleb na podzim 2017 podnikli.
 
-Vyplývá to z [usnesení organizačního výboru](http://www.psp.cz/sqw/hp.sqw?k=3805&kk=5), který každou zahraniční cestu schvaluje. Server iROZHLAS.cz tyto dokumenty jeden po druhém prošel a informace z nich [shromáždil do přehledné tabulky](https://docs.google.com/spreadsheets/d/12M3beW986UsSV9fYA5j3YOD9FX0IClEbij8qnwdtuOE/edit?usp=sharing). Všechny destinace najdete také v následující mapě. Kliknutím zobrazíte seznam všech poslanců, kteří ji navštívili, zdůvodnění cesty i přehled sněmovnou proplacených nákladů.
+Vyplývá to z [usnesení organizačního výboru](http://www.psp.cz/sqw/hp.sqw?k=3805&kk=5), který každou zahraniční cestu schvaluje. Server iROZHLAS.cz tyto dokumenty jeden po druhém prošel a informace z nich [shromáždil do přehledné tabulky](https://docs.google.com/spreadsheets/d/12M3beW986UsSV9fYA5j3YOD9FX0IClEbij8qnwdtuOE/edit?usp=sharing). Obsahuje všechny schválené cesty všech poslanců včetně náhradníků – nelze z ní však vyčíst, zda se daná cesta uskutečnila v původním schváleném složení, nebo jestli za některého účastníka zaskočil náhradník.
+
+Všechny destinace najdete také v následující mapě. Kliknutím zobrazíte seznam všech poslanců, kteří ji navštívili, zdůvodnění cesty i přehled sněmovnou proplacených nákladů.
 
 <wide>
 <div id="mapa"></div>
