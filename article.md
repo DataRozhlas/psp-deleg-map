@@ -112,6 +112,6 @@ Na cesty výborů je letos ve sněmovním rozpočtu vyčleněno 12,5 milionu kor
 
 Poslanci zatím v tomto volebním období procestovali 61 zemí na všech kontinentech s výjimkou Antarktidy a Austrálie. Cesta na Nový Zéland a do Austrálie je nicméně v dlouhodobém plánu na letošní rok, byť ji zatím organizační výbor neschválil.
 
-Nejčastěji poslanci vyjíždějí do Francie, Belgie, na Slovensko, do Rakouska, Maďarska a USA. Nejvíce zahraničních cest má na kontě předseda sněmovny Radek Vondráček (ANO), do ciziny vyjel celkem pětatřicetkrát. Jako jeden ze čtyř nejvyšších ústavních činitelů může na některých cestách zastoupit i prezidenta. 
+Nejčastěji poslanci vyjíždějí do Francie, Belgie, na Slovensko, do Rakouska, Maďarska a USA. Nejvíce schválených zahraničních cest má na kontě předseda sněmovny Radek Vondráček (ANO), do ciziny ho sněmovna vyslala celkem pětatřicetkrát. Jako jeden ze čtyř nejvyšších ústavních činitelů může na některých cestách zastoupit i prezidenta. 
 
-Na druhém místě je s 28 výjezdy předseda výboru pro evropské záležitosti Ondřej Benešík (KDU-ČSL) 28, na třetím Josef Hájek (ANO) se 24 schválenými cestami a na třetím místopředseda zahraničního výboru Jiří Kobza (SPD), který měl příležitost vycestovat jedenadvacetkrát.
+Na druhém místě je s 28 výjezdy předseda výboru pro evropské záležitosti Ondřej Benešík (KDU-ČSL), na třetím Josef Hájek (ANO) se 24 schválenými cestami a na třetím místopředseda zahraničního výboru Jiří Kobza (SPD), který měl příležitost vycestovat jedenadvacetkrát.
